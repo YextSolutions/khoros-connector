@@ -1,0 +1,8 @@
+{
+  "$id": "c_solution",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "displayName": "Solution",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "typeId": "c_khorosMessage"
+}

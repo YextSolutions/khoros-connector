@@ -1,0 +1,50 @@
+{
+  "$id": "khoros_user",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "",
+  "displayName": "Khoros User",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/landingPageUrl",
+      "required": false
+    },
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "khoros_username",
+      "required": false
+    },
+    {
+      "id": "khoros_userFavicon",
+      "required": false
+    },
+    {
+      "id": "yext/emails",
+      "required": false
+    },
+    {
+      "id": "yext/firstName",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/lastName",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }
+  ],
+  "pluralDisplayName": "Khoros Users"
+}

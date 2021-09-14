@@ -1,0 +1,112 @@
+{
+  "$id": "khoros_message",
+  "$schema": "https://schema.yext.com/config/km/field-type/v1",
+  "displayName": "Khoros Message",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "body",
+          "displayName": "Body",
+          "isRequired": false,
+          "typeId": "yext/richText",
+          "type": {
+            "richTextType": {
+              "supportedFormat": [
+                "BLOCK_QUOTE",
+                "BOLD",
+                "BULLETED_LIST",
+                "CODE_BLOCK",
+                "CODE_SPAN",
+                "HEADINGS",
+                "HORIZONTAL_LINE",
+                "HYPERLINK",
+                "IMAGE",
+                "ITALICS",
+                "NUMBERED_LIST",
+                "STRIKETHROUGH",
+                "SUBSCRIPT",
+                "SUPERSCRIPT",
+                "UNDERLINE"
+              ]
+            }
+          }
+        },
+        {
+          "name": "authorUsername",
+          "displayName": "Khoros Author Username",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "authorURL",
+          "displayName": "Khoros Author URL",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          }
+        },
+        {
+          "name": "conversationID",
+          "displayName": "Khoros Conversation ID",
+          "isRequired": false,
+          "typeId": "yext/list",
+          "type": {
+            "listType": {
+              "typeId": "yext/entityReference",
+              "type": {
+                "entityReferenceType": {}
+              }
+            }
+          }
+        },
+        {
+          "name": "postTime",
+          "displayName": "Khoros Post Time",
+          "isRequired": false,
+          "typeId": "yext/date",
+          "type": {
+            "dateType": {}
+          }
+        },
+        {
+          "name": "depth",
+          "displayName": "Khoros Depth",
+          "isRequired": false,
+          "typeId": "yext/decimal",
+          "type": {
+            "decimalType": {}
+          }
+        },
+        {
+          "name": "solution",
+          "displayName": "Khoros Solution",
+          "isRequired": false,
+          "typeId": "yext/string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "views",
+          "displayName": "Khoros Views",
+          "isRequired": false,
+          "typeId": "yext/decimal",
+          "type": {
+            "decimalType": {}
+          }
+        }
+      ]
+    }
+  }
+}

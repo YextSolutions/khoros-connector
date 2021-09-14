@@ -1,0 +1,50 @@
+{
+  "$id": "khoros_board",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v1",
+  "description": "",
+  "displayName": "Khoros Board",
+  "enabled": true,
+  "field": [
+    {
+      "id": "yext/landingPageUrl",
+      "required": false
+    },
+    {
+      "id": "yext/description",
+      "required": false
+    },
+    {
+      "id": "yext/name",
+      "required": true
+    },
+    {
+      "id": "khoros_depth",
+      "required": false
+    },
+    {
+      "id": "khoros_discussionStyle",
+      "required": false
+    },
+    {
+      "id": "khoros_category",
+      "required": false
+    },
+    {
+      "id": "khoros_views",
+      "required": false
+    },
+    {
+      "id": "yext/folder",
+      "required": false
+    },
+    {
+      "id": "yext/labels",
+      "required": false
+    },
+    {
+      "id": "yext/entityId",
+      "required": true
+    }
+  ],
+  "pluralDisplayName": "Khoros Boards"
+}
