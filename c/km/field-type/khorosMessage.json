@@ -9,7 +9,7 @@
           "name": "body",
           "displayName": "Body",
           "isRequired": false,
-          "typeId": "yext/richText",
+          "typeId": "richText",
           "type": {
             "richTextType": {
               "supportedFormat": [
@@ -36,7 +36,7 @@
           "name": "authorUsername",
           "displayName": "Khoros Author Username",
           "isRequired": false,
-          "typeId": "yext/string",
+          "typeId": "string",
           "type": {
             "stringType": {
               "stereotype": "SIMPLE"
@@ -47,7 +47,7 @@
           "name": "authorURL",
           "displayName": "Khoros Author URL",
           "isRequired": false,
-          "typeId": "yext/string",
+          "typeId": "string",
           "type": {
             "stringType": {
               "stereotype": "URL"
@@ -58,10 +58,10 @@
           "name": "conversationID",
           "displayName": "Khoros Conversation ID",
           "isRequired": false,
-          "typeId": "yext/list",
+          "typeId": "list",
           "type": {
             "listType": {
-              "typeId": "yext/entityReference",
+              "typeId": "entityReference",
               "type": {
                 "entityReferenceType": {}
               }
@@ -72,7 +72,7 @@
           "name": "postTime",
           "displayName": "Khoros Post Time",
           "isRequired": false,
-          "typeId": "yext/date",
+          "typeId": "date",
           "type": {
             "dateType": {}
           }
@@ -81,7 +81,7 @@
           "name": "depth",
           "displayName": "Khoros Depth",
           "isRequired": false,
-          "typeId": "yext/decimal",
+          "typeId": "decimal",
           "type": {
             "decimalType": {}
           }
@@ -90,7 +90,7 @@
           "name": "solution",
           "displayName": "Khoros Solution",
           "isRequired": false,
-          "typeId": "yext/string",
+          "typeId": "string",
           "type": {
             "stringType": {
               "stereotype": "SIMPLE"
@@ -101,7 +101,7 @@
           "name": "views",
           "displayName": "Khoros Views",
           "isRequired": false,
-          "typeId": "yext/decimal",
+          "typeId": "decimal",
           "type": {
             "decimalType": {}
           }
