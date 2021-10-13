@@ -87,7 +87,11 @@
     {
       "field": "khoros_userFavicon",
       "header": "Khoros User Icon",
-      "subfieldPath": []
+      "subfieldPath": [
+        {
+          "name": "url"
+        }
+      ]
     },
     {
       "field": "firstName",
