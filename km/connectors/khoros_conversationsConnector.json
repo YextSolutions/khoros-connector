@@ -28,7 +28,7 @@
       },
       {
         "type": "JSON",
-        "header": "Discussion Landing Page",
+        "header": "Khoros Discussion Landing Page",
         "path": "conversation.view_href"
       },
       {
@@ -38,7 +38,7 @@
       },
       {
         "type": "JSON",
-        "header": "First Message",
+        "header": "Khoros Topic",
         "path": "first_message"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "type": "JSON",
-        "header": "Discussion Tread",
+        "header": "Khoros Discussion Thread",
         "path": "discussion_thread"
       },
       {
@@ -63,7 +63,7 @@
       },
       {
         "type": "JSON",
-        "header": "Solution",
+        "header": "Khoros Solution",
         "path": "solution"
       },
       {
@@ -86,7 +86,7 @@
     },
     {
       "field": "khoros_discussionLandingPage",
-      "header": "Conversation Landing Page",
+      "header": "Khoros Discussion Landing Page",
       "subfieldPath": []
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "field": "khoros_firstKhorosMessage",
-      "header": "First Message",
+      "header": "Khoros Topic",
       "subfieldPath": []
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "field": "khoros_discussionThread",
-      "header": "Discussion Thread",
+      "header": "Khoros Discussion Thread",
       "subfieldPath": []
     },
     {
@@ -121,14 +121,14 @@
     },
     {
       "field": "khoros_solution",
-      "header": "Solution",
+      "header": "Khoros Solution",
       "subfieldPath": []
     },
     {
       "field": "khoros_solved",
       "header": "Solved",
       "subfieldPath": []
-    },
+    }
   ],
   "scheduleConfig": {
     "useSourceSchedule": true,

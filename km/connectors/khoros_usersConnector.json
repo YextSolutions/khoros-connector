@@ -38,23 +38,23 @@
       },
       {
         "type": "JSON",
-        "header": "Description",
-        "path": "description"
+        "header": "Khoros Username",
+        "path": "username"
       },
       {
         "type": "JSON",
-        "header": "Discussion Style",
-        "path": "conversation_style"
+        "header": "Khoros User Icon",
+        "path": "user_icon"
       },
       {
         "type": "JSON",
-        "header": "Depth",
-        "path": "depth"
+        "header": "First Name",
+        "path": "firstName"
       },
       {
         "type": "JSON",
-        "header": "Category ID",
-        "path": "parent_category.id"
+        "header": "Last Name",
+        "path": "lastName"
       }
     ]
   },
@@ -70,35 +70,35 @@
       "subfieldPath": []
     },
     {
-      "field": "khoros_views",
-      "header": "Views",
-      "subfieldPath": []
-    },
-    {
       "field": "landingPageUrl",
       "header": "Landing Page",
       "subfieldPath": []
     },
     {
-      "field": "description",
-      "header": "Description",
+      "field": "emails",
+      "header": "Views",
       "subfieldPath": []
     },
     {
-      "field": "khoros_discussionStyle",
-      "header": "Discussion Style",
+      "field": "khoros_username",
+      "header": "Khoros Username",
       "subfieldPath": []
     },
     {
-      "field": "khoros_depth",
-      "header": "Depth",
+      "field": "khoros_userFavicon",
+      "header": "Khoros User Icon",
       "subfieldPath": []
     },
     {
-      "field": "khoros_category",
-      "header": "Category ID",
+      "field": "firstName",
+      "header": "First Name",
       "subfieldPath": []
     },
+    {
+      "field": "lastName",
+      "header": "Last Name",
+      "subfieldPath": []
+    }
   ],
   "scheduleConfig": {
     "useSourceSchedule": true,

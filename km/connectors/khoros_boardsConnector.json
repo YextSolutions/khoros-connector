@@ -98,7 +98,7 @@
       "field": "khoros_category",
       "header": "Category ID",
       "subfieldPath": []
-    },
+    }
   ],
   "scheduleConfig": {
     "useSourceSchedule": true,

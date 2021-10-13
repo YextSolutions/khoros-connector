@@ -43,7 +43,7 @@
       },
       {
         "type": "JSON",
-        "header": "Discussion Style",
+        "header": "Khoros Discussion Style",
         "path": "conversation_style"
       },
       {
@@ -61,7 +61,7 @@
   "mappings": [
     {
       "field": "entityId",
-      "header": "Board ID",
+      "header": "Entity ID",
       "subfieldPath": []
     },
     {
@@ -85,18 +85,8 @@
       "subfieldPath": []
     },
     {
-      "field": "khoros_discussionStyle",
-      "header": "Discussion Style",
-      "subfieldPath": []
-    },
-    {
       "field": "khoros_depth",
       "header": "Depth",
-      "subfieldPath": []
-    },
-    {
-      "field": "khoros_category",
-      "header": "Category ID",
       "subfieldPath": []
     },
     {
