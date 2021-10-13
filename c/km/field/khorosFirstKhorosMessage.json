@@ -4,5 +4,5 @@
   "displayName": "First Khoros Message",
   "group": "NONE",
   "localization": "PRIMARY_ONLY",
-  "typeId": "khoros_khorosMessage"
+  "typeId": "khoros_message"
 }
