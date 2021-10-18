@@ -14,10 +14,6 @@
       "required": true
     },
     {
-      "id": "khoros_username",
-      "required": false
-    },
-    {
       "id": "khoros_userFavicon",
       "required": false
     },
