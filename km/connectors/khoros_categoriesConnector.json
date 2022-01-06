@@ -1,14 +1,13 @@
 {
   "$id": "khoros_categoriesConnector",
-  "$schema": "https://schema.yext.com/config/km/connector/v2",
+  "$schema": "https://schema.yext.com/config/km/connector/v3",
   "displayName": "Khoros Categories Connector",
   "entityType": "khoros_category",
   "source": {
     "sourceConfig": {
       "apiPushConfig": {
-        "app": "61666",
         "dataFormat": "JSON",
-        "enabled": "true"
+        "enabled": true
       }
     },
     "baseSelector": {
@@ -20,7 +19,7 @@
       {
         "type": "JSON",
         "header": "Entity ID",
-        "path": "conversation.id"
+        "path": "id"
       },
       {
         "type": "JSON",
@@ -44,11 +43,6 @@
       },
       {
         "type": "JSON",
-        "header": "Khoros Discussion Style",
-        "path": "conversation_style"
-      },
-      {
-        "type": "JSON",
         "header": "Depth",
         "path": "depth"
       },
@@ -59,15 +53,38 @@
       }
     ]
   },
-  "mappings": [
+  "transforms": [
     {
-      "field": "entityId",
-      "header": "Entity ID",
-      "subfieldPath": []
+      "formatDates": {
+        "inputHeaders": {
+          "headers": [
+            "Creation Date"
+          ]
+        },
+        "inputFormat": "yyyy-MM-dd\u0027T\u0027HH:mm:ss.SSSXXX"
+      }
     },
     {
-      "field": "name",
-      "header": "Name",
+      "addColumn": {
+        "newColumnHeader": "Entity ID Prefix",
+        "columnValue": "khorosCategory_"
+      }
+    },
+    {
+      "mergeColumns": {
+        "inputHeaders": [
+          "Entity ID Prefix",
+          "Entity ID"
+        ],
+        "newColumnHeader": "Global Entity ID",
+        "delimiter": ""
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "field": "datePosted",
+      "header": "Creation Date",
       "subfieldPath": []
     },
     {
@@ -76,13 +93,13 @@
       "subfieldPath": []
     },
     {
-      "field": "landingPageUrl",
-      "header": "Landing Page",
+      "field": "description",
+      "header": "Description",
       "subfieldPath": []
     },
     {
-      "field": "description",
-      "header": "Description",
+      "field": "landingPageUrl",
+      "header": "Landing Page",
       "subfieldPath": []
     },
     {
@@ -91,8 +108,13 @@
       "subfieldPath": []
     },
     {
-      "field": "datePosted",
-      "header": "Creation Date",
+      "field": "name",
+      "header": "Name",
+      "subfieldPath": []
+    },
+    {
+      "field": "entityId",
+      "header": "Global Entity ID",
       "subfieldPath": []
     }
   ]
