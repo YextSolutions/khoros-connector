@@ -1,5 +1,5 @@
 {
-  "$id": "khoros_category.default",
+  "$id": "khoros_category",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
   "name": "Khoros Category-default",
   "entityType": "khoros_category",
