@@ -2,7 +2,7 @@
   "$id": "khoros_categoriesConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "Khoros Categories Connector",
-  "entityType": "khoros_category",
+  "entityTypes": ["khoros_category"],
   "source": {
     "sourceConfig": {
       "apiPushConfig": {

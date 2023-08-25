@@ -2,7 +2,7 @@
   "$id": "khoros_conversationsConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "Khoros Conversations Connector",
-  "entityType": "khoros_conversation",
+  "entityTypes": ["khoros_conversation"],
   "source": {
     "sourceConfig": {
       "apiPushConfig": {

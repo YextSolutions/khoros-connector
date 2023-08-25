@@ -2,7 +2,7 @@
   "$id": "khoros_boardsConnector",
   "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "Khoros Boards Connector",
-  "entityType": "khoros_board",
+  "entityTypes": ["khoros_board"],
   "source": {
     "sourceConfig": {
       "apiPushConfig": {
