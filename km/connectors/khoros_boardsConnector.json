@@ -1,6 +1,6 @@
 {
   "$id": "khoros_boardsConnector",
-  "$schema": "https://schema.yext.com/config/km/connector/v3",
+  "$schema": "https://schema.yext.com/config/km/connector/v4",
   "displayName": "Khoros Boards Connector",
   "entityType": "khoros_board",
   "source": {
@@ -133,5 +133,9 @@
       "header": "Global Category ID",
       "subfieldPath": []
     }
-  ]
+  ],
+  "comprehensiveModeConfig": {
+    "comprehensiveSet": "ENTITIES_CREATED_BY_THIS_CONNECTOR",
+    "actionOnMissingEntities": "DELETE"
+}
 }
